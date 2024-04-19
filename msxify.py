@@ -38,7 +38,7 @@ while i < len(input):
     else:
         output += input[i]
     if i != len(input) - 1:
-        output += '\\r'
+        output += '\\ｒ'
     i += 1
 
 print(output)

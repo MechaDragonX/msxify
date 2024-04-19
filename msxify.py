@@ -1,3 +1,4 @@
+import pyperclip
 import sys
 
 diacritics = {
@@ -41,4 +42,4 @@ while i < len(input):
         output += '\\ｒ'
     i += 1
 
-print(output)
+pyperclip.copy(output)
